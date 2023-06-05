@@ -1,0 +1,12 @@
+{
+    "name": "test-llm",
+    "version": "0.0.1",
+    "scripts": {
+        "install": "npx dalai alpaca install 7B --home ./models",
+        "serve": "npx dalai serve --home ./models"
+    },
+    "private": true,
+    "dependencies": {
+        "dalai": "^0.3.1"
+    }
+}
