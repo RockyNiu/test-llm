@@ -2,6 +2,10 @@
 
 ## Testing with MusicGen
 ```
+# install pytorch
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 #CUDA118
+or
+pip install torch torchvision torchaudio #CPU
 # install package
 pip install -e . 
 # add HuggingFace secret into .secret file
