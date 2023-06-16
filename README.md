@@ -9,8 +9,7 @@ pip install -e .
 python chatbot.py
 ```
 
-## Testing with Dalai repo
-## Steps
+## Testing with Dalai
 ```
 npm i
 npm run install
