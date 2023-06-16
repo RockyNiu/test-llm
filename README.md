@@ -1,11 +1,23 @@
 # Testing LLM Locally
 
-# Steps
+## Testing with MusicGen
+```
+# install package
+pip install -e . 
+# add HuggingFace secret into .secret file
+# execute
+python chatbot.py
+```
+
+## Testing with Dalai repo
+## Steps
 ```
 npm i
 npm run install
-npx run serve
+npm run backup
+npm run appaca
+npm run serve
 ```
 
-# References
+## References
 - https://beebom.com/how-run-chatgpt-like-language-model-pc-offline/

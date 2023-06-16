@@ -1,4 +1,7 @@
+.secret
+envs
 models
+temp
 # NODE
 node_modules
 
@@ -11,6 +14,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.python-version
 .Python
 build/
 develop-eggs/

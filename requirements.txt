@@ -1,0 +1,6 @@
+# please make sure you have already a pytorch install that is cuda enabled!
+accelerate==0.20.3
+bitsandbytes==0.39.0
+langchain==0.0.201
+transformers==4.30.2
+xformers==0.0.20
