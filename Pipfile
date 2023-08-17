@@ -1,0 +1,18 @@
+[packages]
+accelerate = "*"
+bitsandbytes = "*"
+langchain = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+transformers = "*"
+xformers = "*"
+scipy = "*"
+
+[dev-packages]
+
+[scripts]
+chatbot = "python chatbot.py"
+
+[requires]
+python_version = "3.11"

@@ -1,7 +1,6 @@
 from pathlib import Path
 from setuptools import setup, find_packages
 
-
 NAME = 'test-llm'
 DESCRIPTION = 'A repo to test LLM'
 
