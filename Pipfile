@@ -1,18 +1,35 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
 [packages]
 accelerate = "*"
 bitsandbytes = "*"
+charset-normalizer = "*"
+cython = "*"
+fastapi = {version = "*", extras = ["all"]}
+huggingface-hub = "*"
 langchain = "*"
+passlib = {version = "*", extras = ["bcrypt"]}
+python-jose = {version = "*", extras = ["cryptography"]}
+python-multipart = "*"
+sqlalchemy = "*"
 torch = "*"
-torchvision = "*"
 torchaudio = "*"
+torchvision = "*"
 transformers = "*"
 xformers = "*"
-scipy = "*"
 
 [dev-packages]
+black = "*"
+httpx = "*"
+pipfile-sort = "*"
+pytest = "*"
 
 [scripts]
-chatbot = "python chatbot.py"
+format = 'black .'
+server = 'uvicorn api:app --reload'
 
 [requires]
-python_version = "3.11"
+python_version = "3.11.5"

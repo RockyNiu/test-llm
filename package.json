@@ -1,15 +1,18 @@
 {
-    "name": "test-llm",
-    "version": "0.0.1",
-    "scripts": {
-        "appaca": "git clone https://github.com/ItsPi3141/alpaca.cpp.git models/alpaca",
-        "backup": "rename ./models/alpaca/models/7B/ggml-model-q4_0.bin ggml-model-q4_0.bin.backup",
-        "download": "curl -o ./models/alpaca/models/7B/ggml-model-q4_0.bin -C - https://ipfs.io/ipfs/QmQ1bf2BTnYxq73MFJWu1B7bQ2UD6qG7D7YDCxhTndVkPC",
-        "install": "npx dalai alpaca install 7B --home ./models",
-        "serve": "npx dalai serve --home ./models"
-    },
-    "private": true,
-    "dependencies": {
-        "dalai": "^0.3.1"
-    }
+  "name": "test-llm",
+  "version": "0.0.1",
+  "scripts": {
+    "appaca": "git clone https://github.com/ItsPi3141/alpaca.cpp.git models/alpaca",
+    "backup": "rename ./models/alpaca/models/7B/ggml-model-q4_0.bin ggml-model-q4_0.bin.backup",
+    "download": "curl -o ./models/alpaca/models/7B/ggml-model-q4_0.bin -C - https://ipfs.io/ipfs/QmQ1bf2BTnYxq73MFJWu1B7bQ2UD6qG7D7YDCxhTndVkPC",
+    "install": "npx dalai alpaca install 7B --home ./models",
+    "serve": "npx dalai serve --home ./models"
+  },
+  "private": true,
+  "dependencies": {
+    "dalai": "0.3.1"
+  },
+  "devDependencies": {
+    "prettier": "3.0.2"
+  }
 }
